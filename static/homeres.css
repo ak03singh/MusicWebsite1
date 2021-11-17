@@ -1,0 +1,56 @@
+@media  only screen and (max-width:1110px){
+   body{
+       /* background-color: red; */
+   }
+   .click {
+    margin-right: 20px;
+    position: relative;
+    right: 0;
+    left: 4px;
+    font-size: 40px;
+}
+.songItem {
+ 
+    margin: 0 30px;
+    font-size: 30px;
+}
+.OuterBox {
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+    margin-left: 5%;
+}
+.Songcontents {
+    display: flex;
+    width: 332%;
+    border-radius: 25px;
+    align-items: center;
+    height: 95px;
+    background-color: #daa4a4;
+    margin: 40px 0px;
+    justify-content: center;
+}
+.SongBanner img {
+    height: 100px;
+    border-radius: 30px;
+}
+.songItem {
+    margin: 0 30px;
+}
+.timestamp{
+    font-size: 40px;
+}
+.ThirdSection{
+    margin: 0;
+    width: 100%;
+}
+.midsection::before{
+    height: 110%;
+}
+}
+@media (max-height:600px)
+{
+    .midsection::before {
+        height: 250%;
+    }
+}

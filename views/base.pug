@@ -1,0 +1,28 @@
+//- layout.pug
+html
+  head
+    title Music Website
+    block style 
+     style
+       include ../static/style.css
+       include ../static/homeres.css
+      
+  body
+    nav#navbar 
+     ul 
+      div.contain1
+       img(src="./static/images/logo.png", alt="SAAVN" id="logo")
+       span#logocontent SAAVN
+      div.licontainer
+       li #[a(href="/") Home]
+       li #[a(href="/about") About]
+       li #[a(href="/contact") Contact Us]
+    block content
+    block footer
+     footer#footer 
+      | Copyright © www.SaavnSunno.com 2021-22.All rights reserved.
+    block script 
+     script(src="https://kit.fontawesome.com/fe1da7e5b5.js" crossorigin="anonymous")
+     script 
+       include ../static/script.js
+       

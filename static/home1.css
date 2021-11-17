@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+.box2::before{
+    background: url('static/images/bg2.jpg');
+    opacity: 0.5;
+    content: "";
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+h1{
+   text-align: center;
+   margin-top: 50px;
+   font-size: 60px;
+   font-family: 'Itim', cursive;
+   color: rgb(206, 62, 86) ;
+}
+.box2{
+    height: 86vh;
+    display: flex;
+}
+.card{
+   /* border: 2px solid red; */
+   width: 40%;
+   height: 40%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 100px;
+}
+.card img{
+    width: 90%;
+    height: 90%;
+    border: 4px solid rgb(206, 62, 86) ;
+}
+a{
+    text-decoration: none;
+    color: rgb(206, 62, 86);
+}

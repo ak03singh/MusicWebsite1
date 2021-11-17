@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:ital,wght@1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: #a0c2a0;
+}
+ul{
+    display: flex;
+}
+#logo{
+ height: 60px;
+ margin: 4px 10px;
+ border-radius: 27px;
+ cursor: pointer;
+}
+#logocontent{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #739073de;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.contain1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    padding: 0px 17px;
+    color: white;
+    
+}
+li a:hover{
+    color: #739073de;
+    /* background-color: #98f198; */
+}
+.licontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+.searchbar{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    margin: 24px 0;
+}
+.searchbar input{
+    border: 2px solid #523c3c;
+    border-radius: 9px;
+    outline: none;
+    padding: 2px;
+    text-align: center;
+}
+.midsection{
+    /* border:2px solid red; */
+    min-height: 89vh;
+    
+}
+.midsection::before{
+    background: url('static/images/bg.jpg') no-repeat center center/cover;
+    opacity: 0.5;
+    z-index: -1;
+    top: 60px;
+    left: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+
+
+.OuterBox{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 60%;
+}
+.Songcontents{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 110%;
+    border-radius: 30px;
+    align-items: center;
+    height: 40px;
+    background-color: #daa4a4;
+    margin: 20px 0;
+}
+.SongBanner img{
+    height: 40px;
+    border-radius: 42px;
+}
+.songItem{
+    padding: 0 8px;
+    margin: 0 60px;
+}
+/* .songItem span{
+    margin: 0 18px;
+} */
+.songItems{
+    display: inline-block;
+}
+.click{
+    margin-right: 27px;
+    position: relative;
+    right: 0;
+    left: 16px;
+
+}
+
+.ThirdSection{
+    background-color: #87ce87;
+    margin: 20px ;
+    border-radius: 20px;
+    height: 4.3rem;
+    width: 50%;
+    position: fixed;
+    bottom: 10px;
+}
+.RangeBar {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-items: center;
+}
+.RangeBar input{
+    width: 70%;
+    
+} 
+
+.Slider{
+    color: black;
+}
+
+
+.gif img{
+    height: 30px;
+ }
+.gif{
+   display: flex;
+}
+ 
+i{
+    cursor: pointer;
+}
+.timestamp img{
+    height: 15px;
+    margin: 0 12px;
+    opacity: 0;
+}
+#footer{
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 15px;
+
+}
